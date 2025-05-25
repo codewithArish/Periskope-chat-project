@@ -1,3 +1,8 @@
+## 🔗 Live Demo
+
+Check out the deployed project here: [[Live Site]](https://periskope-chat-project-qahe.vercel.app/login)
+(https://periskope-chat.vercel.app)
+
 # Periskope Chat Project
 
 Welcome to the **Periskope Chat Project** repository! This is a real-time chat application built using Next.js with TypeScript, Supabase, and Tailwind CSS. The project demonstrates modern web development practices and real-time database interaction.
