@@ -432,6 +432,19 @@ const ChatArea = ({ selectedChat, messages, onSendMessage, currentUser, users }:
         </button>
       </div>
     </div>
+    import ChatInput from "@/components/ChatInput";
+
+export default function ChatPage() {
+  return (
+    <div className="flex flex-col h-screen">
+      {/* Messages */}
+      <div className="flex-1 overflow-y-auto"> {/* Messages go here */} </div>
+
+      {/* Chat input */}
+      <ChatInput />
+    </div>
+  );
+}
   );
 };
 
