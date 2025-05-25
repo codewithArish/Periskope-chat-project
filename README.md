@@ -1,7 +1,7 @@
 ## 🔗 Live Demo
 
-Check out the deployed project here: [[Live Site]](https://periskope-chat-project-qahe.vercel.app/login)
-(https://periskope-chat.vercel.app)
+Check out the deployed project here: [[Live Site]]([https://periskope-chat-project-qahe.vercel.app/login](https://periskope-chat-project-qahe.vercel.app/))
+
 
 # Periskope Chat Project
 
