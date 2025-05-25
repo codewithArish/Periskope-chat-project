@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+# Periskope Chat Project
 
-## Project info
+Welcome to the **Periskope Chat Project** repository! This is a real-time chat application built using Next.js with TypeScript, Supabase, and Tailwind CSS. The project demonstrates modern web development practices and real-time database interaction.
 
-**URL**: https://lovable.dev/projects/fb5ce69c-1372-4bbf-b7c6-961bd02cb92a
+While I used AI tools to assist with some parts, the major development, coding, and architecture were done by me personally, ensuring a clean, efficient, and scalable codebase.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Overview
 
-**Use Lovable**
+Periskope Chat enables users to connect and chat in real time with a smooth, responsive interface. The app uses Supabase as the backend for authentication and real-time database services, combined with Next.js and TypeScript for a robust and type-safe frontend.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fb5ce69c-1372-4bbf-b7c6-961bd02cb92a) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Features
 
-**Use your preferred IDE**
+- Real-time messaging with instant updates
+- User authentication via Supabase Auth
+- Responsive UI built with Tailwind CSS
+- TypeScript for type safety and better developer experience
+- Clean and modular Next.js architecture
+- Mobile-friendly design and accessibility focus
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Technologies Used
 
-Follow these steps:
+- **Frontend:** Next.js with TypeScript
+- **Backend:** Supabase (Auth and Realtime Database)
+- **Styling:** Tailwind CSS
+- **Hosting:** Vercel
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## How I Built This Project
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. **Planning & UI Design:**
+   - Outlined the main features and user flows.
+   - Designed the interface with responsiveness and simplicity in mind.
+   - Used Tailwind CSS for rapid and consistent styling.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+2. **Frontend Development:**
+   - Built the UI components with Next.js and TypeScript for scalability and type safety.
+   - Implemented the chat interface, user lists, and message input areas.
+   - Used React hooks and context API for state management.
+
+3. **Backend & Real-time Functionality:**
+   - Leveraged Supabase’s authentication system for secure user login/signup.
+   - Used Supabase’s realtime database subscriptions to enable instant message updates.
+   - Managed message storage and retrieval using Supabase’s PostgreSQL backend.
+
+4. **AI Assistance:**
+   - Used AI tools like ChatGPT to optimize code structure and get suggestions for improving certain functions.
+   - Adapted and refined AI-generated code to maintain project-specific needs and standards.
+
+5. **Testing & Debugging:**
+   - Tested on multiple devices and browsers to ensure consistent behavior.
+   - Fixed issues related to synchronization and UI responsiveness.
+
+6. **Deployment:**
+   - Deployed the project on Vercel for seamless hosting and global CDN.
+   - Continuous monitoring and planned improvements based on user feedback.
+
+---
+
+## Getting Started Locally
+
+To run the project locally, follow these steps:
+
+```bash
+git clone https://github.com/codewithArish/Periskope-chat-project.git
+cd Periskope-chat-project
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/fb5ce69c-1372-4bbf-b7c6-961bd02cb92a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
